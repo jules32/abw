@@ -1,0 +1,8 @@
+# configuration for https://ohi-science.shinyapps.io/abw_app
+study_area:       Aruba
+git_owner:        OHI-Science
+git_repo:         abw
+git_slug:         OHI-Science/abw
+git_url:          https://github.com/OHI-Science/abw
+app_url:          https://ohi-science.shinyapps.io/abw_app
+default_branch:   
