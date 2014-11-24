@@ -4,16 +4,16 @@ title: "Regions"
 excerpt: "OHI regions for Aruba"
 share: false
 ads: false
-branch_scenario: draft/subcountry2014
+branch_scenario: published/subcountry2014
 toc: true
 ---
 
 Regions are the fundamental spatial units of analysis for the Ocean Health Index. Scores are calculated for each region individually and then combined (with an offshore area-weighted average) to produce scores for the entire study area: {{ site.study_area }}. These template regions can be modified; they were identified as the largest subcountry division within {{ site.study_area }}.
 
-<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">draft/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/./regions/">published/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
+<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/regions/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 ![]({{ site.baseurl }}/results/{{ page.branch_scenario }}/figures/regions_600x400.png)
-<!--script src="https://embed.github.com/view/geojson/OHI-Science/abw/draft/subcountry2014/spatial/regions_gcs.geojson"></script-->
+<!--script src="https://embed.github.com/view/geojson/OHI-Science/abw/published/subcountry2014/spatial/regions_gcs.geojson"></script-->
 
 Or see the [interactive map of the offshore regions on Github](https://github.com/OHI-Science/{{ site.git_repo }}/blob/{{ page.branch_scenario }}/spatial/regions_gcs.geojson).
 
