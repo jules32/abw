@@ -8,6 +8,7 @@ env:
   - study_area="Aruba"
   - secure: cpQTOBtla7skzc9f4nf2lK/rnyXw1LMOMmSJ+dsSo2LtUtKImkpWb7ixIvqDcQV6R+jWLsgraY722M4M4WWMn8Zg+iSRXGX22SyVXj9iIWqGMIUXVkho4QhbIUSt3vVBZT7FxYKcj2g7p2W6Cs8q50gzFq/CYPdVJbRvDEKeg4s=
   - secure: skCBgMJU1+HWCcQEJJwWfmRlcIemu0lfo+fv5//7tq+z/qzX9eoONeqRo2DUFYfMdoyuP0UzWrpZU/6qp0GZj794zNjAYxrTxdzXSfcbwPZH8ShMHPASI/waylGxGaFnAdjB97XtnvW3kuWW0TNOx3Bx4V4wAPMYvICPX3l8lX0=
+  - secure: pNuuxi9/8muCbgAVKE0r77NfdYFi8T8FCLupBvttkjbS2fR751FHylUafQLj221/EtnTTjO8W2iAORqpcMsMWln6hAoh+bTuzNV6094Uz9wf2WqOG4pzhs+ZCE5cbqcR4jBRWXnEvomyLlRHP1WagBmVjSTEKOxXMLLPZeWUMDg=
 matrix:
   fast_finish: true
 before_install:
