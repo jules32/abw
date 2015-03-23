@@ -1,19 +1,19 @@
-# configuration for https://ohi-science.shinyapps.io/abw_app
-study_area:       Aruba
+# configuration for https://ohi-science.nceas.ucsb.edu/abw_app
+study_area:       Belize
 git_owner:        OHI-Science
 git_repo:         abw
 git_slug:         OHI-Science/abw
 git_url:          https://github.com/OHI-Science/abw
-app_url:          https://ohi-science.shinyapps.io/abw_app
+app_url:          https://ohi-science.nceas.ucsb.edu/abw_app
 default_branch:   published
 default_scenario: subcountry2014
 debug:            False
-last_updated:     2014-11-23
+last_updated:     2015-03-23
 ohicore_app:
-  git_owner: ohi-science
-  git_repo: ohicore
-  git_branch: dev
-  git_commit: e1defd965ddbdd884893608a25a0b5dd0a1aedd2
+  git_owner: jules32
+  git_repo: abw
+  git_branch: draft
+  git_commit: moving App to NCEAS server
 
 tabs_hide:        
 - Calculate
