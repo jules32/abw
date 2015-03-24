@@ -4,7 +4,7 @@ git_owner:        OHI-Science
 git_repo:         abw
 git_slug:         OHI-Science/abw
 git_url:          https://github.com/OHI-Science/abw
-app_url:          https://ohi-science.nceas.ucsb.edu/abw
+app_url:          http://ohi-science.nceas.ucsb.edu/abw
 default_branch:   published
 default_scenario: subcountry2014
 debug:            False
@@ -16,6 +16,6 @@ ohicore_app:
   git_commit: 4430cb9fbd06adcb7bb7803f4542714f2fd01b19
 
 tabs_hide:        
-- Calculate
-- Report
+- calculate
+- report
 
