@@ -11,9 +11,9 @@ study_area:  Aruba
 git_owner:   OHI-Science
 git_repo:    abw
 git_slug:    OHI-Science/abw
-app_url:     http://ohi-science.nceas.ucsb.edu/abw
+app_url:     https://ohi-science.shinyapps.io/abw_app
 
-default_branch_scenario: subcountry2014/published
+default_branch_scenario: published/subcountry2014
 
 # Jekyll configuration
 
